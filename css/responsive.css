@@ -4,8 +4,13 @@
 * Autoprefixer: v10.3.1
 * Browsers: last 4 version
 */
+@media (max-width: 1100px){
+    .header-wrapper{
+        max-width: 100%;
+    }
+}
 
-@media (max-width: 700px;) {
+@media (max-width: 700px) {
     .navigation {
         display: none;
     }
